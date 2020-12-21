@@ -1,4 +1,5 @@
 # vuedal
+Simple, lightweight Vue.js modal (vue + modal = vuedal)
 
 ## Project setup
 ```
@@ -24,6 +25,3 @@ npm run test:unit
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
