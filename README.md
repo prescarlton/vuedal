@@ -1,24 +1,14 @@
 # vuedal
-Simple, lightweight Vue.js modal (vue + modal = vuedal)
+A simple, lightweight modal for Vue.js 2.x
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### Compiles into library files for production
 ```
 npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
 ```
 
 ### Lints and fixes files
