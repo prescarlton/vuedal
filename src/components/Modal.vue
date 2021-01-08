@@ -13,14 +13,22 @@
 export default {
   name: "VueModal",
   props: {
+    // Required; specifies whether
+    // or not the modal should be shown (open)
     isOpen: {
       type: Boolean,
       required: true,
     },
+    // Called when user tries to exit the modal by
+    // either clicking the modal-overlay or the
+    // default close button
     onRequestClose: {
         type: Function,
         required: true
     },
+    // only optional prop; specifies whether 
+    // or not the default close button
+    // in the top right should be shown.
     showDefaultCloseBtn: {
         type: Boolean,
         default: true
@@ -89,8 +97,5 @@ export default {
   transition: 0.2s all;
   box-shadow: 0px 0px 8px 3px rgba(30, 30, 30, 0.3);
   position: relative;
-}
-.modal-body {
-  color: red;
 }
 </style>
