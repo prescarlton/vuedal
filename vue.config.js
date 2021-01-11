@@ -1,4 +1,4 @@
 module.exports = {
     productionSourceMap: true,
-    css: { extract: false }
+    css: { extract: true }
 }
