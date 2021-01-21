@@ -1,6 +1,6 @@
 {
     "name": "vuedal",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "private": false,
     "author": "Preston Carlton <prescarlton@gmail.com> (https://pcarlton.co)",
     "main": "./dist/vuedal.common.js",
@@ -9,6 +9,7 @@
     ],
     "scripts": {
         "serve": "vue-cli-service serve",
+        "prepare":"npm run build",
         "build": "vue-cli-service build --target lib --name vuedal src/main.js",
         "test:unit": "vue-cli-service test:unit",
         "lint": "vue-cli-service lint"
